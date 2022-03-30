@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(79, 206, 132);
+}
+
+#test1 {
+    background-color: rgb(209, 118, 0);
+}
+
+.test2 {
+    background-color: rgb(229, 194, 147);
+}
