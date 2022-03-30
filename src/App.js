@@ -1,12 +1,13 @@
 import React, {Component, Fragment} from "react";
-import Horloge from "./Horloge";
-import "./Moncss.css";
+import { NavLink } from "react-router-dom";
+import Minuteur from "./Minuteur";
+
 
 class App extends Component{
   render(){
     return(
     <>
-    <Horloge />
+    <Minuteur />
     </>
     );
   }
@@ -14,3 +15,10 @@ class App extends Component{
 
 
 export default App;
+
+
+
+
+
+
+
