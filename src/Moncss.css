@@ -3,14 +3,27 @@
     padding: 0;
 }
 
-body {
+/* body {
     background-color: rgb(226, 189, 215);
-}
-
+} */
+/* 
 #test1 {
     background-color: rgb(209, 118, 0);
 }
 
-.test2 {
+/* .test2 {
     background-color: rgb(137, 0, 201);
+} */
+
+
+
+button {
+    margin: 10px;
+    background-color:rgb(7, 83, 41);
+    color:aliceblue;
+    font-size: larger; 
+}
+
+h2 {
+    margin: 20px; 
 }

@@ -1,24 +1,25 @@
 import React, {Component, Fragment} from "react";
 import { Route, Routes, Link } from 'react-router-dom';
 import "./Moncss.css";
-import Home from "./Home";
+import Bouton from "./Bouton";
+
 
 
 
 class App extends Component{
   render(){
     return(
-    <div>
-      <Routes>
-      <Route exact path='/home' element={<Home />}></Route>
-      </Routes>
-    </div>
+    <>
+      <Bouton />
+    </>
     );
   }
 }
 
 
+
 export default App;
+
 
 
 
